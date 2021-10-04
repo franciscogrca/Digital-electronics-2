@@ -2,7 +2,7 @@
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/...](https://github.com/...)
+   [https://github.com/franciscogrca/Digital-electronics-2/edit/main/Lab01-Assignment.md]
 
 
 ### Blink example
