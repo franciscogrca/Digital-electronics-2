@@ -1,4 +1,4 @@
-# Lab 1: YOUR_FIRSTNAME FAMILYNAME
+# Lab 1: Francisco Abelardo García Avilés
 
 Link to your `Digital-electronics-2` GitHub repository:
 
@@ -8,7 +8,7 @@ Link to your `Digital-electronics-2` GitHub repository:
 ### Blink example
 
 1. What is the meaning of the following binary operators in C?
-   * `|`
+   * `|`: 
    * `&`
    * `^`
    * `~`
