@@ -1,8 +1,8 @@
 # Lab 1: FRANCISCO ABELARDO GARCÍA AVILÉS
 
-Link to your `Digital-electronics-2` GitHub repository:
+My `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/franciscogrca/Digital-electronics-2/edit/main/Lab01-Assignment.md]
+https://github.com/franciscogrca/Digital-electronics-2/edit/main/Lab01-Assignment.md
 
 
 ### Blink example
@@ -90,23 +90,23 @@ int main(void)
     while (1)
     {
 
-         _delay_ms(SHORT_DELAY); //wait for 250 ms
+        _delay_ms(SHORT_DELAY); //wait for 250 ms
 
         PORTB = PORTB ^ (1<<LED_GREEN);
 
 		
-		 _delay_ms(SHORT_DELAY);
+	_delay_ms(SHORT_DELAY);  
 		 
-		 PORTB = PORTB ^ (1<<LED_GREEN);
+	PORTB = PORTB ^ (1<<LED_GREEN);
 		 
 		
-		 _delay_ms(SHORT_DELAY);
+	 _delay_ms(SHORT_DELAY);
 
-		 PORTB = PORTB ^ (1<<LED_GREEN);
+	 PORTB = PORTB ^ (1<<LED_GREEN);
 		 
-		 _delay_ms(LONG_DELAY); //wait for 950 ms
+	 _delay_ms(LONG_DELAY); //wait for 950 ms
 		 
-		 PORTB = PORTB ^ (1<<LED_GREEN);
+	 PORTB = PORTB ^ (1<<LED_GREEN);
 		 
 		 
 	
