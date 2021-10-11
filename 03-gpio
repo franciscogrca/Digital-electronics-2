@@ -12,16 +12,17 @@ Link to your `Digital-electronics-2` GitHub repository:
 | **Data type** | **Number of bits** | **Range** | **Description** |
 | :-: | :-: | :-: | :-- | 
 | `uint8_t`  | 8 | 0, 1, ..., 255 | Unsigned 8-bit integer |
-| `int8_t`   |  |  |  |
-| `uint16_t` |  |  |  |
-| `int16_t`  |  |  |  |
-| `float`    |  | -3.4e+38, ..., 3.4e+38 | Single-precision floating-point |
-| `void`     |  |  |  |
+| `int8_t`   | 8 | -128 to 127 |  |
+| `uint16_t` |16  | 0 to 65,535 |  |
+| `int16_t`  | 16 | -32,768 to 32,767 |  |
+| `float`    | 32 | -3.4e+38, ..., 3.4e+38 | Single-precision floating-point |
+| `void`     |  |  | Indicates that the function does not return a value |
 
 
 ### GPIO library
 
 1. In your words, describe the difference between the declaration and the definition of the function in C.
+   
    * Function declaration
    * Function definition
 
