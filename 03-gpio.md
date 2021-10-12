@@ -2,7 +2,7 @@
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.co.](https://github.com)
+   [franciscogrca/Digital-electronics-2/03-gpio](https://github.com/franciscogrca/Digital-electronics-2/edit/main/03-gpio.md)
 
 
 ### Data types in C
