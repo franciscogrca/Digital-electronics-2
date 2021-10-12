@@ -15,7 +15,7 @@
 | `uint16_t` |16  | 0 to 65,535 | Unsigned 16-bit integer|
 | `int16_t`  | 16 | -32,768 to 32,767 | Signed 16-bit integer |
 | `float`    | 32 | -3.4e+38, ..., 3.4e+38 | Single-precision floating-point |
-| `void`     |  |  | Indicates that the function does not return a value |
+| `void`     | Depend on if your OS has 32 bits or 64 bits |  | Indicates that the function does not return a value |
 
 
 ### GPIO library
