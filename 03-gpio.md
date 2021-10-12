@@ -29,16 +29,34 @@
 
 ```c
     // Configure Push button at port D and enable internal pull-up resistor
-    // WRITE YOUR CODE HERE
+    
+/* Defines -----------------------------------------------------------*/
+#define LED_GREEN   PB5     // AVR pin where green LED is connected
+#define BLINK_DELAY 500
+#ifndef F_CPU
+# define F_CPU 16000000     // CPU frequency in Hz required for delay
+#endif
 
+/* Includes ----------------------------------------------------------*/
+#include <util/delay.h>     // Functions for busy-wait delay loops
+#include <avr/io.h>         // AVR device-specific IO definitions
+#include "GPIO.h"           // GPIO library for AVR-GCC
+
+int main(void)
+{
     // Infinite loop
     while (1)
     {
         // Pause several milliseconds
         _delay_ms(BLINK_DELAY);
 
-        // WRITE YOUR CODE HERE
+       GPIO_toggle(&PORTB, LED_GREEN);
+       
+       GPIO_config_input_pullup(&DDRB, LED_GREEN)
     }
+     
+     return 0;
+}    
 ```
 
 
