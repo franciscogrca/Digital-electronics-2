@@ -31,7 +31,8 @@
     // Configure Push button at port D and enable internal pull-up resistor
     
 /* Defines -----------------------------------------------------------*/
-#define LED_GREEN   PB5     // AVR pin where green LED is connected
+#define LED_GREEN   PB5 // AVR pin where green LED is connected
+#define LED_RED PC5  // AVR pin where green LED is connected
 #define BLINK_DELAY 500
 #ifndef F_CPU
 # define F_CPU 16000000     // CPU frequency in Hz required for delay
@@ -47,8 +48,22 @@
 int main(void)
 {
 
-    DDRB = DDRB | (1<<LED_GREEN);
-    PORTB = PORTB & ~(1<<LED_GREEN);
+   // Green LED at port B
+   GPIO_config_output(&DDRB, LED_GREEN);
+   GPIO_write_low(&PORTB, LED_GREEN);
+
+   // Configure the second LED at port C
+   GPIO_config_output(&DDRC, LED_RED);
+   GPIO_write_low(&PORTC, LED_RED);
+    
+   // Configure Push button at port D and enable internal pull-up resistor
+   
+    GPIO_toggle(&PORTB, LED_GREEN);
+    GPIO_config_input_pullup(&DDRB, LED_GREEN);
+
+    GPIO_toggle(&PORTC, LED_RED);
+    GPIO_config_input_pullup(&DDRC, LED_RED);
+
 
     // Infinite loop
     while (1)
@@ -56,11 +71,12 @@ int main(void)
         // Pause several milliseconds
         _delay_ms(BLINK_DELAY);
 
-       GPIO_toggle(&PORTB, LED_GREEN);
+        if(GPIO_read(&PORTB, LED_GREEN) & GPIO_read(&PORTB, LED_GREEN)) {
+        
+            GPIO_write_high(&PORTB, LED_GREEN);
+            GPIO_write_high(&PORTC, LED_RED);
+       }
        
-       GPIO_config_input_pullup(&DDRB, LED_GREEN);
-       
-       GPIO_write_high(&PORTB, LED_GREEN);
     }
      
      return 0;
