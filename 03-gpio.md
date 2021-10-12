@@ -70,9 +70,6 @@ int main(void)
         _delay_ms(BLINK_DELAY);
 
         if(GPIO_read(&PORTD, BUTTON)) {
-        
-            GPIO_write_high(&PORTB, LED_GREEN);
-            GPIO_write_high(&PORTC, LED_RED);
             
             GPIO_toggle(&PORTC, LED_RED);
             GPIO_toggle(&PORTB, LED_GREEN);
