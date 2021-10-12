@@ -42,8 +42,14 @@
 #include <avr/io.h>         // AVR device-specific IO definitions
 #include "GPIO.h"           // GPIO library for AVR-GCC
 
+
+
 int main(void)
 {
+
+    DDRB = DDRB | (1<<LED_GREEN);
+    PORTB = PORTB & ~(1<<LED_GREEN);
+
     // Infinite loop
     while (1)
     {
@@ -52,7 +58,9 @@ int main(void)
 
        GPIO_toggle(&PORTB, LED_GREEN);
        
-       GPIO_config_input_pullup(&DDRB, LED_GREEN)
+       GPIO_config_input_pullup(&DDRB, LED_GREEN);
+       
+       GPIO_write_high(&PORTB, LED_GREEN);
     }
      
      return 0;
