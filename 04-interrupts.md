@@ -1,8 +1,7 @@
 # Lab 4: Francisco Abelardo García Avilés
 
-Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://githum/...](https://github.com/...)
+   [My GitHub repository](https://github.com/franciscogrca/Digital-electronics-2/blob/main/04-interrupts.md)
 
 
 ### Overflow times
