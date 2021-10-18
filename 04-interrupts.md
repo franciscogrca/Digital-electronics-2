@@ -50,7 +50,9 @@ The main difference between a function and interrupt is what is known as context
 
 3. Flowchart figure for function `main()` and interrupt service routine `ISR(TIMER1_OVF_vect)` of application that ensures the flashing of one LED in the timer interruption. When the button is pressed, the blinking is faster, when the button is released, it is slower. Use only a timer overflow and not a delay library. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
+ ![IMG-2043](https://user-images.githubusercontent.com/91128800/137816968-9700278f-5a02-45aa-9779-f584d252de4e.jpg)
+
+![IMG-2042](https://user-images.githubusercontent.com/91128800/137816970-3153ad08-2da3-48aa-9822-4752354d8448.jpg)
 
 
 ### Knight Rider
