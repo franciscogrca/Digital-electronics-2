@@ -21,6 +21,8 @@
    * Function
    * Interrupt service routine
 
+The main difference between a function and interrupt is what is known as context. A function runs within the context of your main program. An interrupt runs within the context of the interrupt handler
+
 2. Part of the header file listing with syntax highlighting, which defines settings for Timer/Counter0:
 
 ```c
