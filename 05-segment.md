@@ -85,4 +85,5 @@ Consider a kitchen alarm with a 7-segment display, one LED and three push button
 
 1. Scheme of kitchen alarm; do not forget the supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+  ![capturabueeeena](https://user-images.githubusercontent.com/91128800/138781674-9e5a724b-4fc5-4fc8-8a19-0fc2fba6779b.png)
+
