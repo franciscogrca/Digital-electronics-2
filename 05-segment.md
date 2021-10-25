@@ -3,7 +3,7 @@
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/...](https://github.com/...)
+   [https://githu/...](https://github.com/...)
 
 
 ### 7-segment library
