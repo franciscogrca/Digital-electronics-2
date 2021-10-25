@@ -10,7 +10,7 @@
 1. In your words, describe the difference between Common Cathode and Common Anode 7-segment display.
    * CC SSD: All cathodes connected to node os log. 0, GND and control of individual segments a, ..., g, DP applying log. 1 on anode (includ. limiting resistor).
  
-   * CA SSD: All anodes to log. 1 and control of segments a, ..., g, DP applying log. on anode (includ. limiting resistor).
+   * CA SSD: All anodes to log. 1 and control of segments a, ..., g, DP applying log. 0 on anode (includ. limiting resistor).
 
 2. Code listing with syntax highlighting of two interrupt service routines (`TIMER1_OVF_vect`, `TIMER0_OVF_vect`) from counter application with at least two digits, ie. values from 00 to 59:
 
