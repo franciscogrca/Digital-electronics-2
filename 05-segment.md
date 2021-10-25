@@ -1,5 +1,5 @@
 
-# Lab 5: YOUR_FIRSTNAME FAMILYNAME
+# Lab 5: FRANCISCO ABELARDO GARCÍA AVILÉS
 
 Link to your `Digital-electronics-2` GitHub repository:
 
