@@ -1,9 +1,8 @@
 
 # Lab 5: FRANCISCO ABELARDO GARCÍA AVILÉS
 
-Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://githu/...](https://github.com/...)
+   [My Github Repository](https://github.com/franciscogrca/Digital-electronics-2)
 
 
 ### 7-segment library
