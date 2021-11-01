@@ -8,7 +8,8 @@ Link to your `Digital-electronics-2` GitHub repository:
 ### LCD display module
 
 1. In your words, describe what ASCII table is.
-   * ASCII
+   
+   * ASCII: The ASCII table contains letters, numbers, control characters, and other symbols. Each character is assigned a unique 7-bit code. ASCII is an acronym for American Standard Code for Information Interchange.
 
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
