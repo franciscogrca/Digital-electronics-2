@@ -1,8 +1,7 @@
-# Lab 7: YOUR_FIRSTNAME FAMILYNAME
+# Lab 7: FRANCISCO ABELARDO GARCÍA AVILÉS
 
-Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
+[My Github Repository](https://github.com/...)
 
 
 ### Analog-to-Digital Conversion
