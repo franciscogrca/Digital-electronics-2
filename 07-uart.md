@@ -1,7 +1,7 @@
 # Lab 7: FRANCISCO ABELARDO GARCÍA AVILÉS
 
 
-[My Github Repository](https://github.com/...)
+[My Github Repository](https://github.com/franciscogrca/Digital-electronics-2)
 
 
 ### Analog-to-Digital Conversion
