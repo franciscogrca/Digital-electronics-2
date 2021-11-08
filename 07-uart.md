@@ -32,23 +32,31 @@ ISR(ADC_vect)
     value = ADC;                  // Copy ADC result to 16-bit variable
     
     // Clear previous value
-	lcd_gotoxy(8,0);
-	lcd_puts("    ");
+    lcd_gotoxy(8,0);
+    lcd_puts("    ");
     
     //Put new value to LCD
     itoa(value, lcd_string, 10);  // Convert decimal value to string
     lcd_gotoxy(8,0);
-	 lcd_puts(lcd_string);
+    lcd_puts(lcd_string);
     
-	// Send the same value to UART
-	uart_puts(lcd_string);
-	uart_puts("  ");
+    // Send the same value to UART
+    uart_puts(lcd_string);
+    uart_puts("  ");
        
-   // Display value in hexa
-	
-   
-   
-	// Display what push button was pressed
+    // Display value in hexa
+    itoa(value, lcd_string, 10);
+    lcd_gotoxy(8, 0);
+    lcd_puts(lcd_string);
+
+    // Display what push button was pressed
+    itoa(value, lcd_string, 16);
+    lcd_gotoxy(13, 0);
+    lcd_puts(lcd_string);
+
+    uart_puts(lcd_string);
+    uart_putc('\n');
+    uart_putc('\r');
    
 }
 ```
