@@ -73,7 +73,7 @@ ISR(ADC_vect)
 
   ![IMG-3497](https://user-images.githubusercontent.com/91128800/140805145-d81f4adf-252d-47b6-b7cc-fce42fc78c1c.jpg)
 
-![IMG-3498](https://user-images.githubusercontent.com/91128800/140805153-8f9cc465-7f3c-46fc-80ee-1c955ad731ce.jpg)
+![IMG-3499](https://user-images.githubusercontent.com/91128800/140805807-ceec8aa0-e03b-4b9b-9b06-189160d989ea.jpg)
 
 
 ### Temperature meter
