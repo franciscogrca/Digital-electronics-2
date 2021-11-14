@@ -2,7 +2,7 @@
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/franciscogrca/Digital-electronics-2)
+[https://github.com/your-github-account/repository-name/lab_name](https://github.com/franciscogrca/Digital-electronics-2/blob/main/Lab08-i2c.md)
 
 ### Arduino Uno pinout
 
