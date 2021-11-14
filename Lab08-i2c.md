@@ -1,8 +1,8 @@
-# Lab 8: YOUR_FIRSTNAME LASTNAME
+# Lab 8: FRANCISCO ABELARDO GARCÍA AVILÉS
 
-Link to this file in your GitHub repository:
+Link to this file in my GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/franciscogrca/Digital-electronics-2/blob/main/Lab08-i2c.md)
+[My Git Hub Repository File Lab08-i2c](https://github.com/franciscogrca/Digital-electronics-2/blob/main/Lab08-i2c.md)
 
 ### Arduino Uno pinout
 
