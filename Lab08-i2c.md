@@ -39,6 +39,14 @@ ISR(TIMER1_OVF_vect)
     // Increment I2C slave address
     case STATE_IDLE:
         addr++;
+		if (addr > 7 && addr < 120)
+			state = STATE_SEND;
+			
+		if (addr > 120){
+			uart_puts_P("\r\nScan I2C-bus for devices:\r\n");
+			addr=0;
+		}
+		
         // If slave address is between 8 and 119 then move to SEND state
 
         break;
