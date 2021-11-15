@@ -77,11 +77,11 @@ ISR(TIMER1_OVF_vect)
     case STATE_ACK:
         // Send info about active I2C slave to UART and move to IDLE
     
-    itoa(addr, uart_string, 10);
-		uart_puts_P("Found device at address: ");
-		uart_puts(uart_string);
-		uart_puts_P("\r\n");
-		state = STATE_IDLE;
+    	itoa(addr, uart_string, 10);
+    	uart_puts_P("Found device at address: ");
+    	uart_puts(uart_string);
+    	uart_puts_P("\r\n");
+    	state = STATE_IDLE;
     
         break;
 
